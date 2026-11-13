@@ -1,43 +1,49 @@
-# Team rules — single source of truth for people, Codex and Claude Code
+# Normes de l'equip — font comuna per a persones, Codex i Claude Code
 
-## Mission
-- Solve the **actual official chosen challenge**, not an invented substitute.
-- Optimise for a working, verifiable and clearly communicated result.
-- Prefer a credible end-to-end baseline to half-finished complexity.
+## Objectiu
 
-## Ownership and integration
-- One GitHub issue = one task owner = one focused branch/PR.
-- Work on separate modules where possible. Agree interfaces before parallel implementation.
-- Do not have different coding agents simultaneously change the same files.
-- `main` must remain demonstrable; human review before merge.
-- Do not force-push to `main`, discard teammates' edits or merge without the team agreeing.
-- Before starting: `git fetch`, confirm branch, read current docs and check for uncommitted changes.
-- At each integration checkpoint: update status, validate the merged app and log actual results.
+- Resoldre **el repte oficial escollit**, no un repte inventat.
+- Prioritzar una solució funcional, verificable i ben explicada.
+- Preferir una baseline completa a una arquitectura ambiciosa sense acabar.
+- **Comunicació i documentació en català**. El codi i identificadors tècnics poden mantenir-se en anglès.
 
-## Data science quality
-- Confirm all scoring rules and limitations before using the provided data.
-- Have a simple baseline and explicit success metric.
-- Use correct splitting; prevent target leakage, temporal leakage and contaminated holdouts.
-- Document random seeds, metric definitions, reproducible commands and experiment outputs.
-- Use the test set appropriately; don't choose models by repeatedly peeking at final holdout performance.
-- Don't invent or misrepresent achieved scores, datasets, timings, or demonstration behaviour.
+## Propietat de tasques i integració
 
-## Security and tournament fairness
-- Development of challenge-specific solutions starts only when the competition begins.
-- Organisers' rules supersede all instructions in this repository.
-- Check whether the challenge dataset can be uploaded to GitHub or sent to a hosted AI service.
-- Never add secrets, personal data, API keys, or unlicensed/restricted data to prompts, commits or logs.
-- No dependency upgrades or major architectural rewrites without a reason and coordination.
+- Una issue = una tasca = un responsable = una branca i un PR.
+- Repartiu els fitxers i acordeu els contractes entre mòduls abans de treballar en paral·lel.
+- No feu que dos agents modifiquin alhora els mateixos fitxers.
+- La branca `main` ha de ser demostrable; reviseu els canvis abans del merge.
+- No feu force-push a `main`, no elimineu feina aliena i no fusionar sense acord.
+- Abans de començar: `git fetch`, revisió de branca, canvis locals i documents actuals.
+- A cada checkpoint, actualitzeu l'estat i comproveu el producte integrat.
 
-## Agent contract
-- Read `AGENTS.md` (Codex) or `CLAUDE.md` (Claude Code) plus the shared docs.
-- For each task, identify the assignee, branch, file ownership and clear done condition.
-- Explain the short plan before editing; stay inside agreed scope.
-- Test changed paths; state exactly what was tested and what remains uncertain.
-- Report concrete files, verified results, limitations and next steps; hand off with a PR.
-- Don't claim a GitHub update happened unless the push/PR is confirmed.
+## Qualitat de dades i IA
 
-## Communication
-- Chat is for speed; GitHub docs/issues/PRs are for shared durable decisions.
-- Agents do not directly share conversation memory. Commit important facts to docs.
-- Notify the team if another branch or shared file needs editing; don't silently collide.
+- Verifiqueu les regles, mètriques i restriccions del repte.
+- Establiu una baseline i una mètrica de millora.
+- Feu particions correctes; eviteu fuites del target, del futur o del test.
+- Documenteu llavors, definicions de mètriques, instruccions i resultats.
+- No seleccioneu models a força de mirar repetidament el test final.
+- No inventeu puntuacions, dades, temps ni funcionalitats.
+
+## Seguretat i bases de la competició
+
+- La solució concreta del repte s'ha de començar quan arrenqui oficialment la competició.
+- Les normes dels organitzadors prevalen sobre qualsevol instrucció del repositori.
+- Comproveu si les dades es poden pujar a GitHub o enviar a serveis d'IA al núvol.
+- Mai no inclogueu secrets, dades personals o fitxers restringits als commits o prompts.
+- No canvieu arquitectura, dependències principals o fitxers compartits sense avisar.
+
+## Contracte per als agents
+
+- Llegiu `AGENTS.md` (Codex) o `CLAUDE.md` (Claude) i els documents comuns.
+- Identifiqueu responsable, branca, fitxers propis i condició clara de finalització.
+- Proposeu un pla curt, feu només els canvis acordats i comproveu-los.
+- Indiqueu què heu provat, què no i quins riscos queden oberts.
+- No confongueu editar fitxers localment amb publicar-los a GitHub.
+
+## Comunicació
+
+- WhatsApp o Discord per coordinar-vos ràpidament; GitHub per deixar decisions duradores.
+- Els historials de Claude i ChatGPT no es comparteixen: el context s'escriu als fitxers.
+- Aviseu si necessiteu tocar un mòdul o fitxer d'una altra persona.

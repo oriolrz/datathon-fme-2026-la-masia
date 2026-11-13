@@ -1,28 +1,32 @@
-# Submission and demo checklist
+# Llista de comprovació de l'entrega
 
-## Verify official requirements
-- [ ] Exact submission cutoff and time zone confirmed
-- [ ] Required deliverables and platform confirmed
-- [ ] AI usage, third-party APIs and external dataset permissions confirmed
-- [ ] Public/private repository and dataset licensing checked
+## Bases i requisits
 
-## Reproducibility and correctness
-- [ ] A fresh clone of `main` works on another laptop
-- [ ] Install, run, inference and demo commands documented in README
-- [ ] No passwords, tokens, personal information or restricted datasets committed
-- [ ] Valid evaluation methodology; no target/time leakage
-- [ ] Output files and quoted metrics independently reproduced
-- [ ] Failure modes and limitations documented
+- [ ] Termini exacte i zona horària verificats
+- [ ] Plataforma i formats d'entrega confirmats
+- [ ] Normes d'IA, APIs externes i dades revisades
+- [ ] Privadesa del repositori i llicències verificades
 
-## Submission
-- [ ] Official questions and requirements answered
-- [ ] Final deliverables uploaded in the required format
-- [ ] Permissions on all shared links checked
-- [ ] Submission receipt or confirmation saved
+## Qualitat i reproduïbilitat
 
-## Presentation
-- [ ] Clear motivation: what problem is being solved?
-- [ ] Baseline compared against proposed result with credible evidence
-- [ ] Demo runs end-to-end (plus a backup demo/screenshot if something breaks)
-- [ ] Key tradeoffs and limitations prepared
-- [ ] Speaker roles and timing rehearsed
+- [ ] El projecte funciona clonat de zero en un altre ordinador
+- [ ] Dependències i ordres per executar la demo documentades
+- [ ] No hi ha credencials, informació privada ni dades restringides
+- [ ] Validació estadística adequada i sense fuites d'informació
+- [ ] Resultats i mètriques reproduïts independentment
+- [ ] Errors coneguts i limitacions explicats
+
+## Entrega
+
+- [ ] Es responen els requisits oficials
+- [ ] Fitxers entregats en el format requerit
+- [ ] Enllaços compartits amb permisos comprovats
+- [ ] Confirmació de lliurament desada
+
+## Presentació
+
+- [ ] Problema i impacte explicats clarament
+- [ ] Comparativa real amb la baseline
+- [ ] Demo funcional i pla alternatiu si falla
+- [ ] Riscos i límits preparats
+- [ ] Rols i temps d'exposició assajats

@@ -1,19 +1,19 @@
-## Purpose / linked GitHub issue
+## Objectiu i issue relacionada
 
-## Assignee and owned files
+## Responsable i fitxers propis
 
-## Summary of actual changes
+## Què s'ha canviat realment
 
-## Verification
-Commands run and actual results (or explain why not run):
+## Verificació
+Ordres executades i resultats reals (o per què no s'han executat):
 
-## Metrics / supporting evidence (when applicable)
+## Mètriques i evidència (si aplica)
 
-## Risks, assumptions, and blockers
+## Riscos, supòsits i bloquejos
 
-## Reviewer checklist
-- [ ] Agreed scope and acceptance criteria met
-- [ ] No secrets or restricted data committed
-- [ ] Actual tests checked; no made-up measurements
-- [ ] Shared docs updated if needed
-- [ ] `main` remains functional after integration
+## Revisió
+- [ ] S'ha respectat l'abast i els criteris d'acabat
+- [ ] No hi ha secrets ni dades restringides
+- [ ] Les proves són reals i no hi ha mètriques inventades
+- [ ] S'ha actualitzat la documentació si cal
+- [ ] La branca `main` continuarà funcionant després del merge

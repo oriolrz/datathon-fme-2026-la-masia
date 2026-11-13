@@ -1,34 +1,42 @@
 # La MasIA — Datathon FME 2026
 
-**Team:** Oriol, Cesc, Dani, David  
-**Event:** 14–15 November 2026 (Barcelona)
+**Equip:** Oriol, Cesc, Dani i David  
+**Dates:** 14–15 de novembre de 2026  
+**Idioma de treball:** català (excepte noms d'eines, codi i identificadors)
 
-> This repository contains **organisational preparation only**. Challenge-specific solution code must not be written before the competition begins. Confirm the precise event schedule, delivery rules, and permitted AI/data usage with organisers.
+> Aquesta estructura és **preparació organitzativa**. El desenvolupament de la solució específica del repte comença durant la competició, seguint les bases i indicacions dels organitzadors.
 
-## Start here
+## Comencem
 
-1. Invite the four teammates to this private repository; set up Git, Python, VS Code, Claude Code or Codex.
-2. Everyone reads [team rules](docs/TEAM_RULES.md) and [Git workflow](docs/WORKFLOW.md).
-3. After the official challenge announcement, choose the challenge and complete [brief](docs/BRIEF.md).
-4. Assign a GitHub issue, owner, file scope and separate branch to each task.
-5. Implement → test → submit PR → teammate review → merge → update status.
-6. Keep [status](docs/STATUS.md), [decisions](docs/DECISIONS.md) and [experiments](docs/EXPERIMENTS.md) factual and up to date.
-7. Preserve a runnable baseline and reserve time for the end-to-end demo and submission.
+1. Tots quatre heu d'acceptar la invitació al repositori privat i clonar-lo.
+2. Obriu aquesta carpeta amb VS Code i inicieu Claude Code o Codex dins del projecte.
+3. Codex llegirà `AGENTS.md`; Claude Code llegirà `CLAUDE.md`. Tots dos consultaran els mateixos documents compartits.
+4. Consulteu les [normes comunes](docs/TEAM_RULES.md), els [accessos i permisos](docs/ACCESSOS.md) i el [flux amb Git](docs/WORKFLOW.md).
+5. Quan comenci la competició, llegiu els reptes i completeu el [brief oficial](docs/BRIEF.md).
+6. Cada tasca ha de tenir responsable, branca i criteris de finalització. Integreu els canvis amb pull requests i reviseu que `main` funciona.
+7. Registreu els resultats reals a [experiments](docs/EXPERIMENTS.md) i les decisions a [decisions](docs/DECISIONS.md).
 
-## Where to look
+## Fitxers principals
 
-| File | Purpose |
+| Fitxer | Per a què serveix |
 |---|---|
-| `AGENTS.md` | Entry point for OpenAI Codex |
-| `CLAUDE.md` | Entry point for Claude Code |
-| `docs/TEAM_RULES.md` | Shared instructions for both AIs and the team |
-| `docs/BRIEF.md` | Official challenge brief, constraints and success criteria |
-| `docs/STATUS.md` | Who owns what, current branches, blockers and next checkpoint |
-| `docs/DECISIONS.md` | Confirmed technical decisions and trade-offs |
-| `docs/EXPERIMENTS.md` | Reproducible results and comparable metrics |
-| `docs/WORKFLOW.md` | Git branches, pull requests and agent prompts |
-| `docs/DELIVERY.md` | Final submission and demo checklist |
+| `AGENTS.md` | Instruccions específiques per a Codex |
+| `CLAUDE.md` | Instruccions específiques per a Claude Code |
+| `.claude/settings.json` | Permisos locals compartits de Claude Code: `acceptEdits` |
+| `docs/TEAM_RULES.md` | Normes i criteris compartits per als quatre i les IA |
+| `docs/ACCESSOS.md` | Configuració dels permisos i diferència entre editar i publicar |
+| `docs/BRIEF.md` | Enunciat, objectius, dades i criteris del repte |
+| `docs/STATUS.md` | Estat, responsabilitats, branques i bloquejos |
+| `docs/DECISIONS.md` | Decisions tècniques i justificacions |
+| `docs/EXPERIMENTS.md` | Experiments, mètriques i reproduïbilitat |
+| `docs/WORKFLOW.md` | Guia de branques, pull requests i encàrrecs als agents |
+| `docs/DELIVERY.md` | Comprovacions abans de presentar i entregar |
+| `.github/pull_request_template.md` | Plantilla per revisar els canvis |
 
-**Important:** ChatGPT and Claude conversations are **not automatically shared**. Both agents get common context by reading files committed to this GitHub repository. Pull the latest changes before beginning work.
+## Com funciona la coordinació entre IA?
 
-**Official rules:** https://www.datathon.cat/condicions
+Les converses privades de Claude i ChatGPT **no se sincronitzen**. La informació que han de compartir s'escriu als fitxers del repositori i es publica amb Git. Cadascú ha de fer `git pull --ff-only` a `main` abans de començar una nova tasca.
+
+**Important:** que un agent pugui editar fitxers no significa que tingui autorització per publicar automàticament a GitHub, ni per saltar-se les normes del repte.
+
+Bases: https://www.datathon.cat/condicions

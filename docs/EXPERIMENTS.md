@@ -1,15 +1,16 @@
-# Experiment log
+# Registre d'experiments
 
-Record measured outcomes, not projected improvements. Keep comparisons fair by using identical evaluation data and protocols.
+Anoteu **resultats mesurats**, mai millores imaginades. Les comparacions han de fer servir la mateixa mètrica i un protocol d'avaluació equivalent.
 
-| ID | Owner | Commit SHA | Split / seed | Approach | Primary metric | Secondary metrics | Runtime | Notes |
+| ID | Responsable | Commit SHA | Partició / llavor | Mètode | Mètrica principal | Altres mètriques | Temps | Observacions |
 |---|---|---|---|---|---|---|---|---|
-| — | — | — | — | Not started | — | — | — | — |
+| — | — | — | — | Encara no iniciat | — | — | — | — |
 
-## Evidence required
-- Exact train/validation/test definition, including chronological ordering if relevant
-- Seed, parameters, dependencies and command to reproduce
-- Baseline and improved approach evaluated on the same split
-- Whether results are in-sample, validation or a final holdout
-- Checks against leakage, overfitting or invalid assumptions
-- Link to associated GitHub PR, report or output
+## Evidència necessària
+
+- Definició exacta de train/validation/test i ordre temporal quan correspongui
+- Llavor, paràmetres, dependències i instruccions per reproduir l'experiment
+- Comparativa baseline/model nou sobre la mateixa partició
+- Si la xifra és d'entrenament, validació o test final
+- Comprovacions d'overfitting, data leakage i supòsits erronis
+- Enllaç al PR, fitxer de resultats o informe

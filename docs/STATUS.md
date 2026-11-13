@@ -1,25 +1,27 @@
-# Current state — update at each integration checkpoint
+# Estat actual — actualitzar en cada checkpoint
 
-**Last verified update:** 13 November 2026 — organisational setup  
-**Challenge:** Awaiting official announcement  
-**Baseline:** Not started  
-**Best validated result:** N/A  
-**Demo:** Not started  
-**Submission:** Not submitted
+**Darrera actualització verificada:** 13 de novembre de 2026 — preparació organitzativa  
+**Repte:** pendent de l'anunci oficial  
+**Baseline:** no iniciada  
+**Millor resultat validat:** cap  
+**Demo:** no iniciada  
+**Entrega:** no presentada
 
-| Owner | Workstream (tentative) | Issue / task | Branch | State | Blocker |
+| Responsable | Àmbit provisional | Tasca / issue | Branca | Estat | Bloqueig |
 |---|---|---|---|---|---|
-| Oriol | Coordination / validation | Awaiting challenge | — | Pending | Official briefing |
-| Cesc | Data analysis / experiments | Awaiting challenge | — | Pending | Official briefing |
-| Dani | Modelling / optimisation | Awaiting challenge | — | Pending | Official briefing |
-| David | Demo / visualisations | Awaiting challenge | — | Pending | Official briefing |
+| Oriol | Coordinació / validació | Esperar el repte | — | Pendent | Enunciat oficial |
+| Cesc | Anàlisi / experiments | Esperar el repte | — | Pendent | Enunciat oficial |
+| Dani | Models / optimització | Esperar el repte | — | Pendent | Enunciat oficial |
+| David | Demo / visualització | Esperar el repte | — | Pendent | Enunciat oficial |
 
-Roles are **provisional** until the team sees the challenge. The owner of a task must explicitly accept it.
+Els rols són **orientatius**, fins a conèixer el repte. Cada responsable ha d'acceptar expressament la seva tasca.
 
-## Next integration checkpoint
-- When: TBD after challenge selection
-- What must run: TBD
-- Who verifies: TBD
+## Proper checkpoint d'integració
 
-## Blocking issues and questions
-- Official challenge, submission format and permitted data/tools not yet confirmed.
+- Quan: pendent després d'escollir el repte
+- Què ha de funcionar: pendent
+- Qui ho verifica: pendent
+
+## Dubtes i bloquejos
+
+- Falta confirmar repte, format d'entrega, dades i eines permeses.

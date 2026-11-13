@@ -1,59 +1,68 @@
-# Team workflow — GitHub + Claude Code + Codex
+# Flux de treball — GitHub, Claude Code i Codex
 
-## Before the challenge starts (organisational preparation only)
-1. Add all four team members as collaborators to this private repository.
-2. Confirm each person can clone it, create a branch, push a harmless docs-only change and open a PR.
-3. Install and authenticate local tools: Git, VS Code, Python, Claude Code and/or Codex.
-4. Do not develop challenge-specific code before the official start.
-5. Everyone reads the entry-point AI instructions and the shared project docs.
+## Avui: preparar sense desenvolupar el repte
 
-## During the Datathon
-1. Choose one official challenge. Fill in `docs/BRIEF.md` with exact objective, data constraints and scoring.
-2. Define a baseline and agree on interfaces and expected file ownership.
-3. Create GitHub issues with specific owner, accepted scope, paths, deliverables and tests.
-4. Branch from the newest `main`: e.g. `feature/cesc-eda`, `feature/dani-baseline`.
-5. Give the coding agent ONE bounded issue at a time.
-6. Run relevant tests and record actual outputs.
-7. Push the work branch; open a pull request with the PR template.
-8. Another teammate reviews, merges, and checks the integration on `main`.
-9. Update `docs/STATUS.md`, `docs/DECISIONS.md` and `docs/EXPERIMENTS.md`.
-10. At least every 2–3 hours, run an end-to-end integration checkpoint.
+1. Afegiu els quatre col·laboradors i confirmeu que han acceptat la invitació.
+2. Cada persona ha de poder clonar el repositori, crear una branca, pujar un canvi de documentació innocu i obrir un pull request.
+3. Comproveu Git, VS Code, Python, Codex o Claude Code i l'autenticació.
+4. No implementeu codi específic del repte abans del seu inici oficial.
+5. Llegiu els fitxers d'instruccions i la [guia d'accessos](ACCESSOS.md).
 
-## Safe Git commands (example)
+## Durant la Datathon
+
+1. Escolliu un dels reptes oficials i ompliu `docs/BRIEF.md`.
+2. Definiu la baseline, els contractes de mòduls i qui és responsable de cada fitxer.
+3. Creeu issues concretes amb persona, abast, fitxers, resultats esperats i proves.
+4. Creeu branques independents des de `main`: `feature/cesc-eda`, `feature/dani-baseline`, etc.
+5. Cada agent rep **una tasca acotada** per sessió.
+6. Executeu les proves, apunteu resultats reals i prepareu un commit.
+7. Publiqueu la branca amb `git push` (amb l'aprovació del responsable) i obriu un PR.
+8. Una altra persona revisa; després feu el merge i comproveu la integració a `main`.
+9. Actualitzeu `docs/STATUS.md`, `docs/DECISIONS.md` i `docs/EXPERIMENTS.md`.
+10. Feu una prova de punta a punta aproximadament cada 2–3 hores.
+
+## Comandes bàsiques
+
 ```bash
 git switch main
 git pull --ff-only
-git switch -c feature/yourname-task
-# Implement only your accepted scope
+git switch -c feature/nom-tasca
+# Feu només la feina acordada
 git status
-git add path/to/your/files
-git commit -m "feat: describe the task"
-git push -u origin feature/yourname-task
-# Open a pull request on GitHub; merge only after review
+git add ruta/dels/fitxers
+git commit -m "feat: descripció breu"
+git push -u origin feature/nom-tasca
+# Obriu un pull request a GitHub i reviseu abans de fusionar
 ```
 
-Avoid blind `git reset --hard`, force pushes, and shared-branch concurrent edits.
+No feu `git reset --hard` sense revisar conseqüències, ni force-push, ni edicions simultànies a la mateixa branca.
 
-## Agent prompt (copy after the challenge starts)
+## Prompt compartit per donar feina a un agent
+
 ```text
-Read AGENTS.md (Codex) or CLAUDE.md (Claude Code), plus
+Respon en català.
+
+Llegeix AGENTS.md (Codex) o CLAUDE.md (Claude Code) i també
 docs/TEAM_RULES.md, docs/BRIEF.md, docs/STATUS.md,
-docs/DECISIONS.md and docs/WORKFLOW.md.
+docs/DECISIONS.md, docs/ACCESSOS.md i docs/WORKFLOW.md.
 
-Assigned GitHub issue and owner: [ISSUE / PERSON]
-My branch: [BRANCH]
-Files/modules I own: [EXACT PATHS]
-Input/output contracts: [IF RELEVANT]
-Definition of done: [MEASURABLE TESTS / OUTPUTS]
+Issue i responsable: [ISSUE / PERSONA]
+Branca: [BRANCA]
+Fitxers que em corresponen: [RUTES EXACTES]
+Contracte d'entrada/sortida: [SI APLICA]
+Definició d'acabat: [PROVES / RESULTATS COMPROVABLES]
 
-First inspect git status and the shared docs, then propose a minimal plan.
-Implement only this scope. Run tests and report commands and real outputs.
-Do not overwrite others' work, merge, force-push, invent scores,
-upload restricted data or reveal credentials.
-Return a handoff summary suitable for the pull request.
+Primer comprova la branca, git status i la documentació.
+Proposa un pla mínim i treballa només dins d'aquest abast.
+Fes proves i indica les ordres i els resultats reals.
+No sobreescriguis la feina aliena, no fusionis ni facis force-push,
+no inventis mètriques, no publiquis dades restringides ni secrets.
+Demana acord abans de publicar canvis a GitHub.
+Acaba amb un resum llest per al pull request.
 ```
 
 ## Checkpoints
-- Short team sync once the challenge and architecture are selected.
-- Integration and updated statuses approximately every 2–3 hours.
-- Freeze new features with sufficient time to verify the submission and rehearse.
+
+- Reunió breu després de triar repte i arquitectura.
+- Revisió i integració del producte cada 2–3 hores.
+- Congelar funcionalitats amb marge suficient per comprovar entrega i assajar.

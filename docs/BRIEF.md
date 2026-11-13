@@ -1,31 +1,35 @@
-# Challenge brief — complete AFTER the official start
+# Fitxa del repte — completar DESPRÉS de l'inici oficial
 
-**Chosen challenge:** TBD  
-**Sponsor / contact:** TBD  
-**Official statement / source:** TBD  
-**Exact submission deadline and time zone:** TBD  
-**Deliverables and format:** TBD  
-**Permitted datasets, internet, APIs and AI tools:** TBD  
+**Repte escollit:** Pendent  
+**Empresa / contacte:** Pendent  
+**Enunciat i font oficial:** Pendent  
+**Hora i data exactes d'entrega:** Pendent  
+**Format i elements obligatoris de l'entrega:** Pendent  
+**Dades, recursos externs i IA permesos:** Pendent  
 
-## Problem and value
-Rewrite the actual objective in 2–3 sentences. Who benefits and how will success be judged?
+## Problema i valor
 
-## Evaluation
-- Official score / judging dimensions: TBD
-- Primary metric and direction: TBD
-- Correct train/validation/test protocol: TBD
-- Trivial baseline to beat: TBD
-- Constraints, edge cases and risks: TBD
+Expliqueu l'objectiu real en dues o tres frases. Per a qui és útil i com s'avaluarà?
 
-## Technical approach
-- First end-to-end solution: TBD
-- Model or optimisation ideas to compare: TBD
-- Interface / demo concept: TBD
-- Out of scope: TBD
+## Avaluació
 
-## Definition of done
-- [ ] Objective and data rules verified
-- [ ] Reproducible baseline
-- [ ] Evidence of improvement on valid evaluation
-- [ ] Working demo or clear deliverable
-- [ ] Honest limitations and complete submission
+- Puntuació oficial i criteris del jurat: pendent
+- Mètrica principal i sentit de la millora: pendent
+- Protocol correcte d'entrenament/validació/test: pendent
+- Baseline senzilla a superar: pendent
+- Restriccions, casos límit i riscos: pendent
+
+## Estratègia tècnica
+
+- Primera solució completa: pendent
+- Models o algoritmes a comparar: pendent
+- Demo o interfície: pendent
+- Fora d'abast: pendent
+
+## Definició de tasca acabada
+
+- [ ] Objectiu i regles de les dades verificats
+- [ ] Baseline reproduïble
+- [ ] Evidència de millora amb avaluació vàlida
+- [ ] Demo funcional o entrega reproduïble
+- [ ] Limitacions reconegudes i entrega completa

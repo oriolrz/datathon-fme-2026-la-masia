@@ -1,5 +1,8 @@
 # La MasIA — Datathon FME 2026
 
+**Resultat web confirmat 14/11 (primer enviament): [4,03 punts, −3,72% CO₂, −4,75% cost, 0 infraccions](docs/UPC_PRIMER_RESULTAT_WEB.md).** A la plataforma constava 1/10 intents gastats del primer torn. Diferencieu aquesta puntuació pública de 4,26 sobre train. PR #6 pendent de merge.
+
+
 ## ⚡ Situació operativa d'avui (14/11)
 
 **[COMENÇA AQUÍ — context únic per als agents](docs/START_HERE.md)** · [Runbook 12:25–15:00](docs/OPERATIU_14NOV.md) · [Dani entra a les 15:00](docs/HANDOFF_DANI_1500.md) · [Relleu que s'ha d'actualitzar](docs/RELLEU_1500.md).

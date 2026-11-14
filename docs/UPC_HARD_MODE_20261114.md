@@ -1,7 +1,7 @@
 # 🚨 UPC Sostenible — HARD MODE (anunciat al Discord 14/11/2026)
 
 **Estat:** **prioritat operativa a partir del comunicat**, però els paràmetres i el codi de Hard Mode **encara no s'han executat/validat localment**. **No** considerar cap resultat Standard com a score Hard.  
-**Font primària:** captura del missatge del canal `#upc-sostenible` compartida per l'equip, més avís de Staff Datathon a les 15:04. La pestanya «🔥 Hard Mode» de la web conté un snippet per simular localment, però encara **no l'hem llegit ni copiat**. Cal obtenir-lo abans d'implementar.
+**Font primària:** captura del missatge del canal `#upc-sostenible` compartida per l'equip, més avís de Staff Datathon a les 15:04. **El snippet oficial del Hard Mode ja s'ha copiat i formatat** a [UPC_HARD_SNIPPET_OFICIAL.md](UPC_HARD_SNIPPET_OFICIAL.md). Encara no s'ha provat contra el simulador local ni el servidor.
 
 ## 1. Normes confirmades en el comunicat oficial
 
@@ -18,7 +18,7 @@
 
 - **Standard continua sense canvis** i els scores ja obtinguts es mantenen.
 - Els organitzadors afirmen que Standard ha assolit la màxima prestació de la bateria en el mode públic, però **Staff Datathon a les 15:04 ha aclarit explícitament que ningú ha arribat al màxim en el rànquing privat**.
-- Hi ha un **snippet oficial a la pestanya 🔥 Hard Mode** per reproduir la simulació sobre train. **La web no ha estat accessible des d'aquesta sessió per llegir-ne el contingut**, de manera que no podem confirmar encara si hi canvien eficiència, score, estructura de dades, límit temporal, temps d'execució o camps addicionals.
+- Hi ha un **snippet oficial a la pestanya 🔥 Hard Mode** per reproduir la simulació sobre train. **El fragment copiat per l'equip no permet comprovar els camps reals de `obs` ni la injecció de meteorologia**, de manera que no podem confirmar encara si hi canvien eficiència, score, estructura de dades, límit temporal, temps d'execució o camps addicionals.
 
 ## 2. Implicacions matemàtiques i de dades
 
@@ -32,8 +32,8 @@
 
 ## 3. Accions P0 (abans de programar una política nova)
 
-- [ ] Entrar a `https://repteupc.datathon.cat/` → pestanya **🔥 Hard Mode** i **copiar el snippet oficial íntegre** amb la seva ubicació/rutes, paràmetres i instruccions d'entrega.
-- [ ] Anotar data i SHA/versionat d'aquest snippet en `docs/UPC_HARD_MODE_SNIPPET_NOTES.md` o adjuntar el codi al repo només si és permès (sense secrets/dades).
+- [x] S'ha copiat el snippet oficial proporcionat per l'equip: [fitxer de referència](UPC_HARD_SNIPPET_OFICIAL.md).
+- [x] S'ha desat el snippet formatat amb data i origen a `docs/UPC_HARD_SNIPPET_OFICIAL.md`, sense secrets ni datasets.
 - [ ] Executar sobre el ZIP local el **benchmark Hard Mode** exactament segons el snippet; no adaptar `environment.py` «a ull» sense comparar-lo amb el snippet.
 - [ ] Congelar i conservar el ZIP **Standard 6,43**, amb SHA-256 `50b1a794711d2221855147e44c6be8fc33c9221a9b0bbe258f0f84675721752f`, i publicar-ne el codi del commit local encara pendent amb revisió. **No tocar el PR #6 pensant que conté el MPC:** aquell PR és l'agent antic de 4,03.
 - [ ] Registrar un **score Hard baseline** i percentatges amb 0 infraccions; abans no existeix una mètrica Hard comparable.

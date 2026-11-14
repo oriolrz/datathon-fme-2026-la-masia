@@ -20,7 +20,7 @@
 
 | Fitxer | Per a què serveix |
 |---|---|
-| `AGENTS.md` | Instruccions específiques per a Codex |
+| `AGENTS.md` | Instruccions específiques per a Codex i OpenCode |
 | `CLAUDE.md` | Instruccions específiques per a Claude Code |
 | `.claude/settings.json` | Permisos locals compartits de Claude Code: `acceptEdits` |
 | `docs/PREPARACIO.md` | Checklist, comprovacions d'eines i horaris d'arribada |
@@ -34,6 +34,12 @@
 | `docs/WORKFLOW.md` | Guia de branques, pull requests i encàrrecs als agents |
 | `docs/DELIVERY.md` | Comprovacions abans de presentar i entregar |
 | `.github/pull_request_template.md` | Plantilla per revisar els canvis |
+
+## OpenCode gratuït (HelmCode)
+
+Aquest equip també pot utilitzar OpenCode amb HelmCode. Vegeu la [guia d'instal·lació i autenticació](docs/HELMCODE_OPENCODE.md) i el fitxer `opencode.json`, que no conté cap clau.
+
+Per revisar el candidat Tinybird/RawTree, consulteu [REPTES_TINYBIRD.md](docs/REPTES_TINYBIRD.md), pendent de rebre l'enunciat complet.
 
 ## Com funciona la coordinació entre IA?
 

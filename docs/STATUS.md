@@ -1,5 +1,8 @@
 # Estat actual — La MasIA, 14 novembre 2026
 
+> **URGENT — HARD MODE ACTIVAT:** [Regles, riscos i estratègia Hard](UPC_HARD_MODE_20261114.md) · [Prompts per als quatre](PROMPTS_HARD_MODE.md). **12× solar, bateria de 6.000 kWh/±1.500 kW i preus/CO₂ només 3h**, amb telemetria meteorològica t−1. Standard 6,43 es conserva. El snippet Hard oficial de la web encara és pendent d'inspeccionar. Prioritzar-lo abans d'adaptar el codi. NO assumir que s'ha arribat al màxim privat.
+
+
 > **Actualització 15:58 — fase 2:** el MPC ha obtingut **6,43** a l'avaluació web, amb zero infraccions. L'oracle offline en train només supera el MPC per **0,02019** punts en el conjunt complet. El leaderboard mostrat recentment té un màxim de **6,44**, però no és un límit matemàtic. **No gastar més submissions sense millora robusta.** Llegiu [decisió de fase 2](UPC_FASE2_DECISIO_1600.md). Els commits de l'experiment són locals i **no** estan al GitHub; el PR #6 segueix essent l'agent anterior.
 
 

@@ -1,5 +1,7 @@
 # Encàrrecs preparats per als quatre agents — UPC Sostenible
 
+**SESSIÓ 14/11:** consulta primer [START_HERE.md](START_HERE.md) i [OPERATIU_14NOV.md](OPERATIU_14NOV.md); les branques remotes i issues #1–#5 estan creades; el Dani **no arriba fins a les 15:00**. Llegiu el [relleu real](RELLEU_1500.md) abans de començar una nova tasca.
+
 **ATENCIÓ: abans d'editar, llegeix també `docs/AUDITORIA_PLANNING_UPC_TUKEY.md` i aplica les seves correccions.** El pla inicial és provisional. Un únic integrador genera el ZIP final incloent els mòduls locals, i cal fer dry-run web.
 
 > **No executeu aquests prompts fins que l'equip hagi escollit oficialment UPC Sostenible i s'hagi acordat un responsable per fitxer.**

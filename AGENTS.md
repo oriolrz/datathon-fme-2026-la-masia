@@ -2,6 +2,8 @@
 
 Treballes dins d'un repositori compartit de quatre persones a la Datathon FME 2026. **Respon, redacta documentació i coordina't en català.** Mantén en anglès els noms de biblioteques, la sintaxi del codi i els identificadors existents.
 
+**NOVETAT IMPORTANT 14/11:** llegeix `docs/UPC_PRIMER_RESULTAT_WEB.md` abans d'analitzar resultats; la primera puntuació pública és **4,03** (zero infraccions), diferent dels **4,26** en train. A la plataforma consta **1 tramesa utilitzada**. No publiquis el PIN.
+
 ## Context del dia (prioritat màxima)
 
 Llegeix **`docs/START_HERE.md`** abans de començar. Durant el 14/11/2026, consulta també **`docs/OPERATIU_14NOV.md`** i **`docs/RELLEU_1500.md`**. El Dani arriba a les **15:00**; no li deleguis tasques bloquejants abans d'aquella hora. Les tasques i branques creades a GitHub són propostes fins que l'equip confirmi formalment el repte i els rols. No sobreescriguis les tasques d'una altra persona.

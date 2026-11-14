@@ -15,6 +15,19 @@ Anoteu **resultats mesurats**, mai millores imaginades. Les comparacions han de 
 - Comprovacions d'overfitting, data leakage i supòsits erronis
 - Enllaç al PR, fitxer de resultats o informe
 
+## Integració Oriol v1 — execució local 14/11/2026 a les 13:03
+
+Run `20261114T120340Z`, base `1bb02e1fd026f98399aba6da716f1be7cca991aa` amb arbre modificat; hashes exactes a `artifacts/evaluation/metrics.json`. **Mesurat abans del commit; codi identificat pels hashes.** Llavor `20261114`, Python 3.11.9, preprocessament del tutorial oficial, 5.993 hores de **train ja explorat**, sense retocar paràmetres. [Protocol, ordres i limitacions](INTEGRACIO_UPC_V1.md).
+
+| Política | Score train | CO₂ | Cost | Infraccions | Simulació local |
+|---|---:|---:|---:|---:|---:|
+| Referència original | 0,00 | 0,88% | 2,18% | 46 | 2,154 s |
+| Referència + clamp exacte | 1,27 | 0,88% | 2,18% | 0 | 1,978 s |
+| Prototip preexistent | 4,26 | 3,86% | 5,18% | 0 | 2,209 s |
+| BatteryAgent reserva | 4,26 | 3,86% | 5,18% | 0 | 2,137 s |
+
+ZIP final validat amb checker oficial i procés aïllat: mateixes 5.993 consignes i mètriques, **3,977685 s** incloent extracció/imports/preprocessament/simulació. 11 tests correctes. Diagnòstics amb reinici de SOC/horitzó per bloc: 2.784 h abans de març **3,32**; 3.209 h des de març **5,09**. **No són holdouts independents** i no són directament comparables amb màscares d'un recorregut complet. Dry-run web i leaderboard pendents; 0 submissions en aquesta sessió.
+
 ## Proves exploratòries 14/11/2026 (fora de Git; encara NO són el model final)
 
 **Origen:** Starter Kit oficial, preprocessament del tutorial; **5.993 hores de train**. Els valors van ser reproduïts localment i hi ha un informe ampli a [UPC_STARTER_TESTS.md](UPC_STARTER_TESTS.md) i [AUDITORIA_PLANNING_UPC_TUKEY.md](AUDITORIA_PLANNING_UPC_TUKEY.md).

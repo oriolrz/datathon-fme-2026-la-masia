@@ -1,0 +1,6 @@
+# Només simulació local. El ZIP de reserva usa la biblioteca estàndard.
+numpy==2.4.1
+pandas==2.3.3
+python-dateutil==4.0.0
+pytz==2026.6
+tzdata==2026.6

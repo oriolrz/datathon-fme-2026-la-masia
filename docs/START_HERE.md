@@ -2,6 +2,12 @@
 
 > **Font de context compartida de l'equip i dels agents.** Les converses de Codex, Claude i OpenCode **no** se sincronitzen: l'estat real es publica al repositori. Després de cada integració, l'integrador actualitza aquest document i `docs/HANDOFF_DANI_1500.md`.
 
+## Actualització local d'Oriol, 14/11 a les 13:03–13:07
+
+**Issue #2 implementada a `feat/oriol-integration`, candidata a integrar mitjançant PR; commit/push autoritzats per l'Oriol.** [Evidència i reproducció BatteryAgent v1](INTEGRACIO_UPC_V1.md): Python 3.11.9, 11 tests superats, checker oficial del ZIP aprovat i backtest aïllat de 5.993 hores amb score **4,26 de train**, CO₂ **3,86%**, cost **5,18%** i **0 infraccions**. Procés complet del ZIP **3,98 s** locals. `agent.py`, clamp central i reserva funcionals; connexió explícita amb la futura política del Dani. **Dry-run web pendent, cap submissió en aquesta sessió.** La situació de les 12:25 de sota és context històric; no acredita una decisió conjunta dels quatre.
+
+**Revisió abans de publicar, 13:11:** 18 fitxers revisats, `git diff --check` correcte, 11 tests i checker del ZIP repetits correctament; cap dataset, secret, entorn o artefacte entre els fitxers a versionar. La web oficial confirma dry-run gratuït de 48 h i actualitza la quota del leaderboard a **10 intents per franja** (fins a les 21 h, de 21 a 08 h, i des de les 08 h fins al tancament). Aquesta dada substitueix la menció antiga de 10 intents/dia de sota. [Passos exactes del dry-run](INTEGRACIO_UPC_V1.md#validació-ràpida-web-de-48-hores).
+
 ## Situació a les 12:25 (hora Barcelona)
 - Membres presents: **Oriol, Cesc, David**. **Dani arriba cap a les 15:00.**
 - **UPC Sostenible** és el candidat prioritari i base d'aquest pla. **La decisió definitiva dels quatre no s'ha confirmat** al xat: ratifiqueu-la abans de desenvolupar.

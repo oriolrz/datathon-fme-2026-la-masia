@@ -1,5 +1,11 @@
 # Estat actual — La MasIA, 14 novembre 2026
 
+## Actualització local d'integració — Oriol, 13:03–13:07
+
+Issue #2 autoritzada per l'Oriol i executada a `feat/oriol-integration`, base `1bb02e1`; **publicació de la branca i PR autoritzats, merge pendent de revisió**. [Informe verificable](INTEGRACIO_UPC_V1.md): `agent.py`, `src/safety.py`, reserva independent, scripts de simulació/empaquetament i 11 tests correctes. Score **train 4,26**, **0 infraccions**, **3,98 s** de procés aïllat del ZIP, checker oficial aprovat. **Validació independent i dry-run web pendents**. No s'han modificat `src/policy.py`, `src/mpc.py`, `src/forecast.py` ni `dashboard/`. Les assignacions dels altres i la ratificació conjunta del repte continuen pendents de l'equip. Repetició prèvia a publicació: 11 tests correctes, checker del ZIP correcte i procés aïllat **4,841240 s**, amb les mateixes consignes i mètriques.
+
+La resta d'aquest document conserva l'estat històric de les 12:25.
+
 **Coordinació 12:25–15:00:** Oriol, Cesc i David presents; Dani s'incorpora cap a les **15:00**. [Punt d'entrada](START_HERE.md), [runbook](OPERATIU_14NOV.md), [onboarding Dani](HANDOFF_DANI_1500.md), [relleu per omplir](RELLEU_1500.md).
 
 **GitHub preparat, no vol dir tasques executades:** issues [#1](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/1), [#2](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/2), [#3](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/3), [#4](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/4), [#5](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/5). Branques remotes `feat/oriol-integration`, `feat/cesc-forecast`, `feat/david-tukey`, `feat/dani-optimizer`. Codi de prototip 24h compartit a `prototypes/upc/` com a referència experimental.

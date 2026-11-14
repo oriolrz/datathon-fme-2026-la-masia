@@ -1,5 +1,14 @@
 # La MasIA — Datathon FME 2026
 
+## ⚡ Situació operativa d'avui (14/11)
+
+**[COMENÇA AQUÍ — context únic per als agents](docs/START_HERE.md)** · [Runbook 12:25–15:00](docs/OPERATIU_14NOV.md) · [Dani entra a les 15:00](docs/HANDOFF_DANI_1500.md) · [Relleu que s'ha d'actualitzar](docs/RELLEU_1500.md).
+
+**Branques creades:** `feat/oriol-integration`, `feat/cesc-forecast`, `feat/david-tukey`, `feat/dani-optimizer`. **Issues:** [coordinació #1](../../issues/1), [Oriol #2](../../issues/2), [Cesc #3](../../issues/3), [David #4](../../issues/4), [Dani #5](../../issues/5). Les assignacions són provisionals fins a l'acord de l'equip.
+
+**Codi experimental compartit:** [prototip 24h UPC](prototypes/upc/agent_v0_24h.py), no és la submissió final ni una puntuació del leaderboard.
+
+
 **Equip:** Oriol, Cesc, Dani i David  
 **Dates:** 14–15 de novembre de 2026  
 **Idioma de treball:** català (excepte noms d'eines, codi i identificadors)

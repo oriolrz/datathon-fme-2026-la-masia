@@ -43,6 +43,8 @@
     }
   },
   "instructions": [
+    "docs/START_HERE.md",
+    "docs/RELLEU_1500.md",
     "docs/TEAM_RULES.md",
     "docs/BRIEF.md",
     "docs/STATUS.md",

@@ -1,5 +1,10 @@
 # La MasIA — Datathon FME 2026
 
+## 🚨 Novetat: Hard Mode UPC
+
+[Regles i pla urgent](docs/UPC_HARD_MODE_20261114.md) · [Encàrrecs per als quatre agents](docs/PROMPTS_HARD_MODE.md). **12× solar, bateria 6 MWh i ±1.500 kW, previsions confirmades només de 3 hores i leaderboard separat.** El mode Standard 6,43 segueix intacte; el privat no està maximitzat. Falta el snippet oficial de la pestanya Hard abans d'implementar.
+
+
 **Resultat web confirmat 14/11 (primer enviament): [4,03 punts, −3,72% CO₂, −4,75% cost, 0 infraccions](docs/UPC_PRIMER_RESULTAT_WEB.md).** A la plataforma constava 1/10 intents gastats del primer torn. Diferencieu aquesta puntuació pública de 4,26 sobre train. PR #6 pendent de merge.
 
 

@@ -43,6 +43,8 @@ Per revisar el candidat Tinybird/RawTree, consulteu [REPTES_TINYBIRD.md](docs/RE
 
 ## Pla de competició (pendent de decisió de l'equip)
 
+**Comenceu per la [nova auditoria de viabilitat i riscos](docs/AUDITORIA_PLANNING_UPC_TUKEY.md) abans d'executar els prompts dels agents.**
+
 - [Guia operativa UPC Sostenible + Premi Tukey](docs/PLA_UPC_TUKEY.md)
 - [Prompts preparats per a Oriol, Cesc, Dani, David i una auditoria OpenCode](docs/PROMPTS_EQUIP_UPC.md)
 - [Anàlisi i proves del Starter Kit](docs/UPC_STARTER_TESTS.md)

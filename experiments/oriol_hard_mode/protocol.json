@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "seed": 20261114,
+  "calibration_end_exclusive": "2026-03-01",
+  "validation_end_exclusive": "2026-06-01",
+  "selection": "Best calibration score per family; validation selects among frozen family winners. Confirmation never tunes parameters. Require zero violations/failures and final isolated full process <45s.",
+  "data_role": "internal_validation_on_project_train_already_explored",
+  "models": [
+    {"id":"naive3","family":"A","kind":"naive","horizon":3,"forecast":"profile","terminal":"target"},
+    {"id":"solar","family":"B","kind":"heuristic","horizon":24,"forecast":"adaptive","terminal":"none"},
+    {"id":"mpc3_shadow050","family":"C","kind":"mpc","horizon":3,"forecast":"adaptive","terminal":"shadow","terminal_factor":0.5},
+    {"id":"mpc3_shadow090","family":"C","kind":"mpc","horizon":3,"forecast":"adaptive","terminal":"shadow","terminal_factor":0.9},
+    {"id":"mpc24_profile","family":"D","kind":"mpc","horizon":24,"forecast":"profile","terminal":"target"},
+    {"id":"mpc24_adaptive","family":"D","kind":"mpc","horizon":24,"forecast":"adaptive","terminal":"target"},
+    {"id":"mpc24_annual","family":"D","kind":"mpc","horizon":24,"forecast":"annual","terminal":"target"},
+    {"id":"mpc24_shadow","family":"D","kind":"mpc","horizon":24,"forecast":"annual","terminal":"shadow","terminal_factor":0.8},
+    {"id":"mpc24_scenarios","family":"E","kind":"scenarios","horizon":24,"forecast":"annual","terminal":"target","replan_every":2}
+  ]
+}

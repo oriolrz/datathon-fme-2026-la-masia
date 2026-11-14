@@ -1,0 +1,3 @@
+# Eines locals de simulació i diagnòstic; l'agent només importa numpy/scipy.
+-r ../../requirements-validation.txt
+scipy==1.17.0

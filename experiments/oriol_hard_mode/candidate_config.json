@@ -1,0 +1,20 @@
+{
+  "selected_by": "validation_before_confirmation",
+  "configuration": {
+    "id": "mpc24_annual",
+    "family": "D",
+    "kind": "mpc",
+    "horizon": 24,
+    "forecast": "annual",
+    "terminal": "target"
+  },
+  "source_sha256": {
+    "policies.py": "fe5a16e9ddbec77bd4f8542befed5956bf175e2b36922a897f8d431f47e0bbc6",
+    "forecast.py": "aa3d27a2b4803ab6d1a9a5786f649356ed46b9017b3b2bdb23515b5c8c38928c",
+    "safety.py": "96b40de81655b3ded85e52c716d68c1d23abcd292badddfbd85bcff856efe821",
+    "lab.py": "68ceae9fb2b5b4a5e41ec47fb257e5edc1aaf7993a4fff8ac15abc4963592ba8",
+    "protocol.json": "9a7654da977de09125a4e2336d9fafecf90887c1c30c4e198cbbe4d8ffc7e37e",
+    "training.json": "7165a66df80ec7feb84c9a31544954771f37c49b95a6eda8a24dacc282134307"
+  },
+  "telemetry_pv_units": "Hard kW already x12"
+}

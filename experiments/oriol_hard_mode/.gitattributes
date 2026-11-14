@@ -1,0 +1,2 @@
+# Fonts i JSON en LF per mantenir els hashes reproduïbles també a Windows.
+* text eol=lf

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "seed": 20261114,
+  "calibration_end_exclusive": "2026-03-01",
+  "validation_end_exclusive": "2026-06-01",
+  "meaningful_gain_points": 0.01,
+  "monthly_max_loss_points": 0.02,
+  "max_local_process_seconds": 45,
+  "selection": "Best calibration score per terminal/horizon/normalization family; seasonal and persistence predeclared controls. Validate frozen shortlist, require >=0.01 points gain and no month below current-0.02. Confirm without retuning. All periods are previously explored project train.",
+  "models": [
+    {"id": "current", "family": "current", "forecast": "constant", "terminal": "fixed", "horizon": 24, "normalization": "weighted"},
+    {"id": "perfect24", "family": "oracle", "forecast": "perfect", "terminal": "fixed", "horizon": 24, "normalization": "weighted"},
+    {"id": "seasonal24", "family": "forecast", "forecast": "seasonal", "terminal": "fixed", "horizon": 24, "normalization": "weighted"},
+    {"id": "persistence24", "family": "forecast", "forecast": "persistence", "terminal": "fixed", "horizon": 24, "normalization": "weighted"},
+    {"id": "terminal_soft", "family": "terminal", "forecast": "constant", "terminal": "soft", "horizon": 24, "normalization": "weighted"},
+    {"id": "terminal_shadow", "family": "terminal", "forecast": "constant", "terminal": "shadow", "horizon": 24, "normalization": "weighted"},
+    {"id": "terminal_dynamic", "family": "terminal", "forecast": "constant", "terminal": "dynamic", "horizon": 24, "normalization": "weighted"},
+    {"id": "horizon12", "family": "horizon", "forecast": "constant", "terminal": "fixed", "horizon": 12, "normalization": "weighted"},
+    {"id": "horizon6", "family": "horizon", "forecast": "constant", "terminal": "fixed", "horizon": 6, "normalization": "weighted"},
+    {"id": "normalization_mean", "family": "normalization", "forecast": "constant", "terminal": "fixed", "horizon": 24, "normalization": "unweighted"},
+    {"id": "normalization_online", "family": "normalization", "forecast": "constant", "terminal": "fixed", "horizon": 24, "normalization": "online"}
+  ]
+}

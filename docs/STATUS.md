@@ -1,5 +1,10 @@
 # Estat actual — La MasIA, 14 novembre 2026
 
+**Coordinació 12:25–15:00:** Oriol, Cesc i David presents; Dani s'incorpora cap a les **15:00**. [Punt d'entrada](START_HERE.md), [runbook](OPERATIU_14NOV.md), [onboarding Dani](HANDOFF_DANI_1500.md), [relleu per omplir](RELLEU_1500.md).
+
+**GitHub preparat, no vol dir tasques executades:** issues [#1](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/1), [#2](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/2), [#3](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/3), [#4](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/4), [#5](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/5). Branques remotes `feat/oriol-integration`, `feat/cesc-forecast`, `feat/david-tukey`, `feat/dani-optimizer`. Codi de prototip 24h compartit a `prototypes/upc/` com a referència experimental.
+
+
 **Repte:** ja estan anunciats Qualcomm, UPC Sostenible i Tinybird/RawTree. **No s'ha confirmat encara la decisió oficial dels quatre.**
 **Candidat preferent tècnicament:** UPC Sostenible, segons anàlisi i proves locals; no confondre amb una decisió de l'equip.
 **Side Challenge:** Tukey (dashboard de suport al repte principal), amb criteris confirmats; termini i forma de lliurament pendents.

@@ -1,0 +1,7 @@
+# Dades derivades de la telemetria UPC: es regeneren amb el pipeline i no es pugen
+web/public/data/
+.cache/
+config.local.json
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo

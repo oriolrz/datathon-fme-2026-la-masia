@@ -1,0 +1,9 @@
+{
+  "updated": "2026-11-14T13:27+01:00",
+  "source": "docs/UPC_PRIMER_RESULTAT_WEB.md (captures de la plataforma oficial repteupc.datathon.cat)",
+  "note": "Test públic del leaderboard (1.008 h). No és el 50% privat. Actualitzeu aquest fitxer després de cada tramesa verificada.",
+  "submissions": [
+    { "time": "14/11 13:26", "label": "La MasIA v1 (PR #6)", "agent_id": "oriol_v1", "score": 4.03, "co2_pct": 3.72, "cost_pct": 4.75, "infr": 0, "rank": "5è de 5 visibles" }
+  ],
+  "leader": { "score": 6.43, "co2_pct": 5.97, "cost_pct": 7.50, "note": "Líder visible al test públic a les 13:26" }
+}

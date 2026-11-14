@@ -90,6 +90,12 @@ La proposta es pot canviar amb acord dels quatre; no hi ha responsabilitats assi
 
 **Criteris oficials**: 1) utilitat per prendre decisions, 2) adequació dels gràfics, 3) coherència dels indicadors/resultats.
 
+### Confirmació posterior al Discord (#tukey-commission, 14/11/2026, 12:01)
+
+El missatge de l'organització confirma que la Side Challenge **no és un repte deslligat**: el dashboard ha de donar suport al repte principal de l'equip i facilitar decisions. Valoren, en aquest ordre explicatiu: **utilitat per a la presa de decisions, adequació dels gràfics i coherència amb les dades**. El format és lliure (Power BI, Shiny, Tableau o aplicació web), i hi haurà **tres finalistes i un premi**. Les diapositives indiquen un finalista per repte principal. **No s'ha comunicat en aquest missatge ni el termini concret ni el mecanisme de tramesa**, que continuen pendents de confirmar amb els mentors.
+
+**Conseqüència:** construir el dashboard sobre les mateixes sèries i resultats reproduïbles del simulador de bateria, evitar dades fictícies i reservar un espai curt per explicar la decisió que permet cada visualització. La Side Challenge no ha de bloquejar l'agent principal.
+
 ### Concepte recomanat: «La MasIA · Battery Decision Lab»
 
 Fes que el jurat pugui respondre, interactuant amb el dashboard:

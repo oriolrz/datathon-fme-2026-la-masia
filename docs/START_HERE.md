@@ -1,5 +1,8 @@
 # 🚀 LA MASIA — LLEGEIX AIXÒ PRIMER (14/11/2026)
 
+> **Actualització 15:58 — fase 2:** el MPC ha obtingut **6,43** a l'avaluació web, amb zero infraccions. L'oracle offline en train només supera el MPC per **0,02019** punts en el conjunt complet. El leaderboard mostrat recentment té un màxim de **6,44**, però no és un límit matemàtic. **No gastar més submissions sense millora robusta.** Llegiu [decisió de fase 2](UPC_FASE2_DECISIO_1600.md). Els commits de l'experiment són locals i **no** estan al GitHub; el PR #6 segueix essent l'agent anterior.
+
+
 > **Font de context compartida de l'equip i dels agents.** Les converses de Codex, Claude i OpenCode **no** se sincronitzen: l'estat real es publica al repositori. Després de cada integració, l'integrador actualitza aquest document i `docs/HANDOFF_DANI_1500.md`.
 
 ## Situació a les 12:25 (hora Barcelona)

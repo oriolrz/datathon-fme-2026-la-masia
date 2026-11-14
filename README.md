@@ -41,6 +41,14 @@ Aquest equip també pot utilitzar OpenCode amb HelmCode. Vegeu la [guia d'instal
 
 Per revisar el candidat Tinybird/RawTree, consulteu [REPTES_TINYBIRD.md](docs/REPTES_TINYBIRD.md), pendent de rebre l'enunciat complet.
 
+## Pla de competició (pendent de decisió de l'equip)
+
+- [Guia operativa UPC Sostenible + Premi Tukey](docs/PLA_UPC_TUKEY.md)
+- [Prompts preparats per a Oriol, Cesc, Dani, David i una auditoria OpenCode](docs/PROMPTS_EQUIP_UPC.md)
+- [Anàlisi i proves del Starter Kit](docs/UPC_STARTER_TESTS.md)
+
+Aquests documents són **propostes**: no determinen el repte ni assignen rols fins que els quatre ho acordeu.
+
 ## Com funciona la coordinació entre IA?
 
 Les converses privades de Claude i ChatGPT **no se sincronitzen**. La informació que han de compartir s'escriu als fitxers del repositori i es publica amb Git. Cadascú ha de fer `git pull --ff-only` a `main` abans de començar una nova tasca.

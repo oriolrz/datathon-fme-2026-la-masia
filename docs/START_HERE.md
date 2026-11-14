@@ -35,6 +35,16 @@
 
 **Important:** aquestes assignacions requereixen el vistiplau del grup. Dani no ha de tocar `agent.py` ni l'estructura del dashboard, excepte acord exprés.
 
+## GitHub: tasques i branques ja preparades
+
+- [#1 Coordinació i decisió de repte](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/1)
+- [#2 Oriol — Integració i validació](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/2) — `feat/oriol-integration`
+- [#3 Cesc — Dades i validació](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/3) — `feat/cesc-forecast`
+- [#4 David — Dashboard Tukey](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/4) — `feat/david-tukey`
+- [#5 Dani — Optimització a partir de les 15:00](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/5) — `feat/dani-optimizer`
+
+**Branques remotes creades; comanda local:** `git fetch origin` i després `git switch --track origin/feat/<nom>` (si no existeix encara la branca local). **No executeu `git switch -c` amb aquests noms sense comprovar abans el remot.**
+
 ## Primeres accions immediates
 1. Confirmar UPC Sostenible i propietaris del codi amb l'equip present. Si no es confirma, només coordinació/documentació.
 2. Tots: `git switch main && git pull --ff-only` (o comandes per separat a PowerShell), crear branca pròpia i obrir l'agent des de l'arrel correcta.

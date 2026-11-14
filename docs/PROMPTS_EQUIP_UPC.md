@@ -1,5 +1,7 @@
 # Encàrrecs preparats per als quatre agents — UPC Sostenible
 
+**ATENCIÓ: abans d'editar, llegeix també `docs/AUDITORIA_PLANNING_UPC_TUKEY.md` i aplica les seves correccions.** El pla inicial és provisional. Un únic integrador genera el ZIP final incloent els mòduls locals, i cal fer dry-run web.
+
 > **No executeu aquests prompts fins que l'equip hagi escollit oficialment UPC Sostenible i s'hagi acordat un responsable per fitxer.**
 >
 > Cada persona obre la seva branca local i actualitza `main` abans de començar. Les instruccions de `AGENTS.md`, `CLAUDE.md` i `docs/TEAM_RULES.md` continuen vigents.

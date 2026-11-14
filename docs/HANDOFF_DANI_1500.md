@@ -36,10 +36,11 @@ Al terminal, des del directori local del projecte:
 git status
 git switch main
 git pull --ff-only
-git switch -c feat/dani-optimizer
+git fetch origin
+git switch --track origin/feat/dani-optimizer
 ```
 
-**Si la branca ja existeix**, fes `git switch feat/dani-optimizer` i actualitza la branca segons l'estat de Git; no executis el `-c` a cegues.
+**La branca remota ja està creada.** Si també tens branca local, executa `git switch feat/dani-optimizer` en lloc de l'última comanda; no creïs cap duplicat. Després comprova `git status -sb`.
 
 Arrenca Claude Code dins de la carpeta del repositori (o la seva extensió). Fes-lo començar en mode lectura, amb aquest prompt:
 

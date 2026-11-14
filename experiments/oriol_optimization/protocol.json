@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "seed": 20261114,
+  "stable_commit": "99f3f4358cd85caf136cb0da5df51b2396ef7c21",
+  "calibration_end_exclusive": "2026-03-01",
+  "validation_end_exclusive": "2026-06-01",
+  "confirmation_end": "end_of_available_train",
+  "data_role": "internal_validation_on_previously_explored_project_train",
+  "normalization": "calibration_energy_weighted_mean_carbon_and_price_only",
+  "initial_soc_kwh": 1000,
+  "gap_handling": "SOC persists as in official environment; stale telemetry ignored across gaps",
+  "selection": "Best calibration score per family; choose validation winner only if no validation month loses >0.20 points vs stable; confirmation and stress never tune parameters",
+  "stress_load_multipliers": [0.3, 0.6, 1.4],
+  "grid": [
+    {"id": "stable", "family": "A", "kind": "stable"},
+    {"id": "marginal_010", "family": "B", "kind": "marginal", "margin": 0.10},
+    {"id": "marginal_020", "family": "B", "kind": "marginal", "margin": 0.20},
+    {"id": "marginal_030", "family": "B", "kind": "marginal", "margin": 0.30},
+    {"id": "reserve_000", "family": "C", "kind": "reserve", "margin": 0.00},
+    {"id": "reserve_005", "family": "C", "kind": "reserve", "margin": 0.05},
+    {"id": "mpc_terminal_000", "family": "D", "kind": "mpc", "terminal_factor": 0.0},
+    {"id": "mpc_terminal_050", "family": "D", "kind": "mpc", "terminal_factor": 0.5},
+    {"id": "mpc_terminal_100", "family": "D", "kind": "mpc", "terminal_factor": 1.0},
+    {"id": "mpc_terminal_target", "family": "D", "kind": "mpc", "terminal_factor": 0.0, "terminal_target": 1000}
+  ]
+}

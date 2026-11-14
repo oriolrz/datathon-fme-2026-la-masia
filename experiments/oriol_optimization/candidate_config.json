@@ -1,0 +1,22 @@
+{
+  "configuration": {
+    "id": "mpc_terminal_target",
+    "family": "D",
+    "kind": "mpc",
+    "terminal_factor": 0.0,
+    "terminal_target": 1000
+  },
+  "parameters": {
+    "mean_carbon": 0.08930741373496812,
+    "mean_price": 0.14347114750579337
+  },
+  "selection_period": "2026-03-01 <= Fecha < 2026-06-01",
+  "calibration_end_exclusive": "2026-03-01",
+  "frozen_before_confirmation": true,
+  "source_sha256": {
+    "policies.py": "7370e07346dfd87bafba2a81dcda8f99bcc5b896a0441b9bb38104b7a25a61e5",
+    "protocol.json": "a0783aaa4e404f2a78d6c94cd51a455f8083baf54a5a06b825c8c27ffabe9382",
+    "run.py": "88e78dd167a7921f0857ca67b28347f64865255a0107622ceae3b1d7db12ed79",
+    "requirements.txt": "dd27253aca6ae09ab00115cbeb5c940cac4cf67d87e1c6fe91243ee225c508c3"
+  }
+}

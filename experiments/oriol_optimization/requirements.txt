@@ -1,0 +1,2 @@
+# Complement de requirements-validation.txt de la versió estable.
+scipy==1.17.0

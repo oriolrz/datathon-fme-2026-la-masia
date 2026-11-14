@@ -1,5 +1,8 @@
 # 👋 Dani — Incorporació a les 15:00 (Datathon FME 2026)
 
+> **Actualització 15:58 — fase 2:** el MPC ha obtingut **6,43** a l'avaluació web, amb zero infraccions. L'oracle offline en train només supera el MPC per **0,02019** punts en el conjunt complet. El leaderboard mostrat recentment té un màxim de **6,44**, però no és un límit matemàtic. **No gastar més submissions sense millora robusta.** Llegiu [decisió de fase 2](UPC_FASE2_DECISIO_1600.md). Els commits de l'experiment són locals i **no** estan al GitHub; el PR #6 segueix essent l'agent anterior.
+
+
 **Aquest document està escrit a les 12:25; és el pla d'incorporació, no un informe de feina acabada.** Per conèixer què s'ha executat de debò fins a les 15:00, llegeix primer [RELLEU_1500.md](RELLEU_1500.md), actualitzat pels tres companys quan acabi el bloc.
 
 ## 1. Què ha passat mentre no hi eres?

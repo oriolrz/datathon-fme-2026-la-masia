@@ -1,0 +1,56 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "providers": {
+    "helmcode": {
+      "name": "Helmcode",
+      "env": [
+        "HELMCODE_API_KEY"
+      ],
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "https://api.helmcode.com/v1"
+      },
+      "models": {
+        "glm5.3-flash": {
+          "name": "GLM 5.3 Flash",
+          "limit": {
+            "context": 1048576,
+            "output": 32768
+          }
+        },
+        "deepseek-v4-flash": {
+          "name": "DeepSeek V4.1 Flash",
+          "limit": {
+            "context": 1048576,
+            "output": 32768
+          }
+        },
+        "qwen3.6": {
+          "name": "Qwen 3.6",
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        },
+        "gemma4": {
+          "name": "Gemma 4",
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        }
+      }
+    }
+  },
+  "instructions": [
+    "docs/TEAM_RULES.md",
+    "docs/BRIEF.md",
+    "docs/STATUS.md",
+    "docs/WORKFLOW.md",
+    "docs/ACCESSOS.md"
+  ],
+  "compaction": {
+    "auto": true,
+    "prune": true
+  }
+}

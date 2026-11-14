@@ -1,5 +1,8 @@
 # Estat actual — La MasIA, 14 novembre 2026
 
+> **Actualització 15:58 — fase 2:** el MPC ha obtingut **6,43** a l'avaluació web, amb zero infraccions. L'oracle offline en train només supera el MPC per **0,02019** punts en el conjunt complet. El leaderboard mostrat recentment té un màxim de **6,44**, però no és un límit matemàtic. **No gastar més submissions sense millora robusta.** Llegiu [decisió de fase 2](UPC_FASE2_DECISIO_1600.md). Els commits de l'experiment són locals i **no** estan al GitHub; el PR #6 segueix essent l'agent anterior.
+
+
 **Coordinació 12:25–15:00:** Oriol, Cesc i David presents; Dani s'incorpora cap a les **15:00**. [Punt d'entrada](START_HERE.md), [runbook](OPERATIU_14NOV.md), [onboarding Dani](HANDOFF_DANI_1500.md), [relleu per omplir](RELLEU_1500.md).
 
 **GitHub preparat, no vol dir tasques executades:** issues [#1](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/1), [#2](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/2), [#3](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/3), [#4](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/4), [#5](https://github.com/oriolrz/datathon-fme-2026-la-masia/issues/5). Branques remotes `feat/oriol-integration`, `feat/cesc-forecast`, `feat/david-tukey`, `feat/dani-optimizer`. Codi de prototip 24h compartit a `prototypes/upc/` com a referència experimental.
